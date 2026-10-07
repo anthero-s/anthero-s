@@ -1,3 +1,4 @@
+
 name: Generate Snake
 
 on:
@@ -8,6 +9,7 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
